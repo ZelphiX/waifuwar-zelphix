@@ -1,5 +1,3 @@
-
-import players
 import waifu
 import player
 import random
@@ -10,10 +8,6 @@ player_name2 = input("Entrez votre nom d'invocateur Joueur 1 : ")
 # Initialiser les joueurs
 p1 = player.Player(player_name1)
 p2 = player.Player(player_name2)
-
-# Ajouer les joueurs à la liste totale de joueurs 
-players.get_players().append(p1)
-players.get_players().append(p2)
 
 # Demander waifus du joueur 1
 for i in range(5):
